@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(238, 217, 30);
+    background-color: #292931;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -12,4 +12,48 @@ header h1, h2{
     text-align: center;
     padding: 10px;
     margin: 10px;
+    color: #ffffff;
+}
+
+div.stopwatch-count p {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 20px;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+div.buttons button{
+    padding: 15px 50px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: rgb(188, 32, 202);
+    border: 2px solid white;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+div.buttons button:hover{
+    background-color: white;
+    color: rgb(188, 32, 202);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
 }
