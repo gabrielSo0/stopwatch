@@ -1,5 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: rgb(238, 217, 30);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+}
+
+header h1, h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
